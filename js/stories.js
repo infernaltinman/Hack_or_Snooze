@@ -23,7 +23,6 @@ function generateStoryMarkup(story, userStory = false) {
   // console.debug("generateStoryMarkup", story);
 
   const hostName = story.getHostName();
-  
 
   return $(`
       <li id="${story.storyId}">
